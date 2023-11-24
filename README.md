@@ -1,4 +1,4 @@
-A fun Calculator 
+# A fun Calculator 
 
 Project in HTML, CSS and JavaScript that implements the functionalities of a calculator.
 
