@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Viga', sans-serif;
+  font-size: 1.2rem;
+}
+
+.header {
+  display: flex;
+  width: 33.3vw;
+  margin: 0 auto;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.header h1 {
+  font-family: 'Vina Sans', sans-serif;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid grey;
+  width: 400px;
+  margin: 0 auto; /*to center the parent div horizontally*/
+  margin-top: 20px;
+  background-color: brown;
+  border-radius: 8px;
+}
+
+.input {
+  border: 1px solid grey;
+  justify-content: center;
+}
+
+.input button {
+  display: none;
+}
+
+.calculator-grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px;
+  column-gap: 3px;
+  row-gap: 3px;
+  border: 1px solid grey;
+}
+
+.calculator-item {
+  border: 2px solid grey;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: rgb(245, 237, 220);
+  display: flex;
+  justify-content: center;
+}
+
+.color-red {
+  background-color: red;
+}
+
+.form {
+  display: flex;
+  justify-content: flex-end;
+  background-color:#C7DFEB;
+  border: 2px solid blue;
+  border-radius: 4px;
+  margin: 10px 5px;
+  padding: 10px;
+}
+
+.form-row {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.form-row input[type="text"] {
+  background-color: #C7DFEB;
+}
