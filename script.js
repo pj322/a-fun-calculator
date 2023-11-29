@@ -1,6 +1,8 @@
 "use strict";
 
 let keys = document.querySelectorAll("div.calculator-item");
+let newKeys = Array.from(keys);
+newKeys.splice(18,1); // rimuovo elemento con =
 
 function displayDigits(keysObject) {
   // outputs in the form the pressed keys as a string
@@ -34,5 +36,5 @@ function calculateValue() {
   });
 }
 
-displayDigits(keys);
+displayDigits(newKeys);
 calculateValue();

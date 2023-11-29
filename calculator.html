@@ -21,11 +21,10 @@
   </div>
   <div class="calculator">
     <div class="input">
-      <form class="form">
+      <form class="form" id="formInput">
         <div class="form-row">
           <input type="text" placeholder="0"></input>
         </div>
-        <button>Update</button>
       </form>
     </div>
     <div class="calculator-grid">
@@ -65,7 +64,8 @@
       </div>
       <div class="calculator-item">0
       </div>
-      <div class="calculator-item">&#61;
+      <div class="calculator-item equal">
+        <button type="submit" form="formInput">&#61;</button>
       </div>
       <div class="calculator-item">&#47;
     </div>
